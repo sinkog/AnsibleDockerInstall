@@ -1,0 +1,27 @@
+galaxy_info:
+  author: Gabor Zoltan Sinko
+  description: Configures the docker
+
+  license: CC-BY-SA
+
+  min_ansible_version: 2.4
+
+  origin_github_branch: https://github.com/SmartOpsAcademy/ansible/roles/apt
+  github_branch: https://github.com/sinkog/AnsibleDockerInstall.git
+
+  platforms:
+    - name: Debian
+      versions:
+        - jessie
+        - stretch
+        - buster
+    - name: Ubuntu
+      versions:
+        - bionic
+
+  galaxy_tags:
+    - debian
+    - ubuntu
+    - apt
+
+dependencies: []
